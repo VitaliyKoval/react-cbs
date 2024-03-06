@@ -1,0 +1,25 @@
+.Sidebar {
+  border: 1px solid rgb(246, 246, 246);
+  border-radius: 4%;
+  padding: 10px;
+  margin: 5px;
+  grid-area: side;
+  background: rgb(247, 247, 247);
+  
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    padding-left: 0;
+    font-size: 16px;
+  }
+
+  a {
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+  }
+}
+
+

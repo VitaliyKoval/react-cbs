@@ -1,0 +1,17 @@
+* {
+  font-family: Fire Sans, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "main main side"
+    "foot foot foot";
+}
